@@ -65,7 +65,8 @@ const upload = async (req, res) => {
 
   //let path = '/Users/robertasaldana/Desktop/IPSCentralBackend/src/resources/static/assets/uploads/equipos.xlsx'
   //let path = '/Users/jessicatrevino/Desktop/itesm/TC3005/reto/IPSCentralBackend/IPSCentralBackend/src/resources/static/assets/uploads/equipos.xlsx';
-  let path = '/Users/melissa/Documents/tec/back6/IPSCentralBackend/src/resources/static/assets/uploads/equipos.xlsx';
+  //let path = '/Users/melissa/Documents/tec/back6/IPSCentralBackend/src/resources/static/assets/uploads/equipos.xlsx';
+  let path = '/Users/Daniela Garza/Documents/GitHub/IPSCentralBackend/src/resources/static/assets/uploads/equipos.xlsx';
 
   readXlsxFile(path).then(async (rows) => {
     //se salta los headers
